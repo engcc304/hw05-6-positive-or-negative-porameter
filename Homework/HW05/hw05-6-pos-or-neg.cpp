@@ -16,3 +16,22 @@
         Negative
 
 */
+#include <stdio.h> //The program calculates the number whether it is a positive or negative integer.
+int main() {
+    int Number ;
+    
+    printf( "Input :\n") ;
+    scanf( "%d", &Number) ;
+
+    if(Number > 0) {
+        printf( "Positive") ;
+    }else {
+        printf( "Negative") ;
+    }
+
+    return 0 ;
+
+
+}//end fuction
+
+
