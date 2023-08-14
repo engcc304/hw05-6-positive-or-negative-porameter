@@ -18,12 +18,12 @@
 */
 #include <stdio.h> //The program calculates the number whether it is a positive or negative integer.
 int main() {
-    int number ;
+    int Number ;
     
     printf( "Input :\n") ;
-    scanf( "%d", &number) ;
+    scanf( "%d", &Number) ;
 
-    if(number > 0) {
+    if(Number > 0) {
         printf( "Positive") ;
     }else {
         printf( "Negative") ;
@@ -32,6 +32,6 @@ int main() {
     return 0 ;
 
 
-}//
+}//end fuction
 
 
